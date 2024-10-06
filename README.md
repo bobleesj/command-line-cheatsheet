@@ -247,7 +247,7 @@ source ~/.zshrc  # or source ~/.bashrc
 ## Test PyPI
 
 ```bash
-Build the pakcage and uploda
+# Build pakcage and upload to Test PyPI
 python -m build && twine upload --repository testpypi dist/*
 ```
 
