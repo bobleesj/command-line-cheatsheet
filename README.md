@@ -4,7 +4,7 @@ This document contains commonly used commands for
 - GitHub
 - Conda`
 - conda-forge
-- Documentation (Sphinx)
+- pip
 
 Feel free to fork and add more useful commands and flags as needed.
 
