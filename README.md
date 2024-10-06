@@ -97,7 +97,7 @@ pip install -r pip.txt -r test.txt
 # Install a specific version of a package
 pip install bob==3.2
 
-# Build and install your package locally
+# Build and install your package to your environment
 pip install .
 
 # Build and install locally without using cache
@@ -107,6 +107,7 @@ pip install . --no-cache-dir
 pip install . --no-cache-dir --no-deps
 
 # Build and install in development mode
+# compiled binaries/extensions are located in the project folder, not the environment
 pip install -e .
 
 # Install a package from a .whl file
@@ -115,6 +116,7 @@ pip install bob-1.0.0-py3-none-any.whl
 # Install a package from a source distribution (sdist) file
 pip install https://example.com/package.tar.gz
 ```
+
 
 
 ## Conda
