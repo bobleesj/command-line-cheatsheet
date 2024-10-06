@@ -119,7 +119,6 @@ pip install bob-1.0.0-py3-none-any.whl
 pip install https://example.com/package.tar.gz
 ```
 
-
 ## Conda
 
 Create an environment with Python 3.12:
@@ -188,7 +187,7 @@ conda info
 # List packages installed
 conda list
 conda list -n bob
-
+```
 
 
 ## conda-forge
