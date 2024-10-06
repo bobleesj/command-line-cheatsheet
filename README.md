@@ -5,6 +5,8 @@ This document contains commonly used commands for
 - Conda`
 - conda-forge
 - pip
+- pre-commit
+- Test PyPI
 
 Feel free to fork and add more useful commands and flags as needed.
 
@@ -118,7 +120,6 @@ pip install https://example.com/package.tar.gz
 ```
 
 
-
 ## Conda
 
 Create an environment with Python 3.12:
@@ -175,6 +176,21 @@ Once install, do a quick import test:
 python -c "import bob; print(bob.__version__)"
 ```
 
+### info
+
+```
+# List all available environments
+conda env list
+
+# Get info on current environment
+conda info
+
+# List packages installed
+conda list
+conda list -n bob
+
+
+
 ## conda-forge
 
 Only relevent for conda-forge users:
@@ -228,6 +244,20 @@ Activate the alias:
 source ~/.zshrc  # or source ~/.bashrc
 ```
 
+## Test PyPI
+
+```bash
+Build the pakcage and uploda
+python -m build && twine upload --repository testpypi dist/*
+```
+
+## pre-commit
+
+Run pre-commit
+
+```bash
+pre-commit run --all-files
+```
 
 ## References
 
