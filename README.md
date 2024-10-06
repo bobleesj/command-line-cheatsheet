@@ -188,6 +188,45 @@ conda smithy rerender
 conda smithy recipe-lint
 ```
 
+## command-line shortcuts
+
+Open up the shell configuration file using Visual Studio:
+
+```bash
+code  ~/.zshrc  # or ~/.bashrc
+```
+
+Copy the following to the file:
+
+```bash
+# My custom aliases
+alias gc='git checkout'
+alias gpum='git pull upstream main'
+alias gcm='git checkout main'
+alias grau='git remote add upstream'
+alias grv='git remote -v'
+alias gc='git clone'
+alias ga='git add'
+alias gc='git commit -m'
+alias gpo='git push origin'
+alias gl='git log'
+alias gs='git status'
+alias gd='git diff'
+alias gb='git branch'
+alias pi='pip install'
+alias ci='conda install'
+alias pt='pytest'
+alias pi='pip install'
+alias gcb='git checkout -b'
+alias gpsuo='git push --set-upstream origin'
+```
+
+Activate the alias:
+```
+source ~/.zshrc  # or source ~/.bashrc
+```
+
+
 ## References
 
 - GitHub CLI https://cli.github.com/manual/
