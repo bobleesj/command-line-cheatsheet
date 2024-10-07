@@ -7,6 +7,7 @@ This document contains commonly used commands for
 - pip
 - pre-commit
 - Test PyPI
+- Bash scripting
 
 Feel free to fork and add more useful commands and flags as needed.
 
@@ -256,6 +257,112 @@ Run pre-commit
 ```bash
 pre-commit run --all-files
 ```
+
+## Bash scripting
+
+### Bascis
+
+The shebang line tells the system which interpreter to use to execute the script:
+
+```bash
+#!/bin/bash
+```
+
+Variable:
+
+```bash
+name="Bob"
+echo "Hello world, $Bob!"
+```
+
+User inpput:
+
+```bash
+echo "What is your name?"
+read name
+echo "Hello, $name!"
+```
+
+For loop:
+
+```
+for i in {1..5}; do
+    echo "Number $i"
+done
+```
+
+Conditional statement:
+
+```bash
+echo "Enter a number:"
+read num
+if [ $num -lt 10 ]; then
+    echo "The number is less than 10."
+else
+    echo "The number is 10 or greater."
+fi
+```
+
+- `gt` for "greater than"
+- `eq` for "equals"
+- `ne` for "not equal"
+- `le` for "less than or equal to"
+- `ge` for "greater than or equal to"
+
+While loop:
+
+```bash
+counter=1
+while [ $counter -le 5 ]; do
+    echo "Counter is $counter"
+    ((counter++))
+done
+```
+
+Function:
+
+```bash
+intro() {
+    echo "Hi $1! You are $2 years old."
+}
+intro "Bob" 3
+```
+
+### Folder/file management
+
+```bash
+# $# is a special variable giving the # of arguments
+if [ "$#" -ne 1 ]; then
+    exit 1
+fi
+
+# Use the first argument as the root directory
+root_dir="$1/*"
+
+# Loop through each item in the root directory
+for dir in $root_dir; do
+    if [ -d "$dir" ]; then  # Check if it's a directory
+        echo "Visiting directory: $dir"
+        # Perform operations in "$dir"
+    fi
+done
+```
+
+To use, run `./script.sh /path/to/directory`.
+
+Check a file exists:
+
+```bash
+# Check if a file exists
+if [ ! -f "my_file.txt" ]; then
+    echo "Error: File does not exist."
+    exit 1
+fi
+```
+
+`exit 1` (or any non-zero value) indicates that the script is terminated with an error.
+
+##
 
 ## References
 
