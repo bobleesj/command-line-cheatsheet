@@ -11,6 +11,16 @@ This document contains commonly used commands for
 
 Feel free to fork and add more useful commands and flags as needed.
 
+## GitHub
+
+```
+# Delete remote branch
+git push origin --delete cookierelease
+
+# Delete local branch
+git branch -D cookierelease
+```
+
 ## GitHub CLI
 
 ### Show readme
