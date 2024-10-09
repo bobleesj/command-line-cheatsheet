@@ -218,24 +218,33 @@ Copy the following to the file:
 
 ```bash
 # My custom aliases
+alias ga='git add'
 alias gc='git checkout'
 alias gpum='git pull upstream main'
-alias gcm='git checkout main'
 alias grau='git remote add upstream'
+alias gfa='git fetch --all'
 alias grv='git remote -v'
-alias ga='git add'
 alias gcm='git commit -m'
+alias gcb='git checkout -b'
+alias gp='git pull'
 alias gpo='git push origin'
 alias gl='git log'
 alias gs='git status'
 alias gd='git diff'
 alias gb='git branch'
+
+# install
 alias pi='pip install'
 alias ci='conda install'
+
+# test
 alias pt='pytest'
-alias pi='pip install'
-alias gcb='git checkout -b'
-alias gpsuo='git push --set-upstream origin'
+
+# build
+alias pb='python -m build'
+
+# dist
+alias testpypi='twine upload --repository testpypi dist/*'
 ```
 
 Activate the alias:
