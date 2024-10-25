@@ -140,21 +140,19 @@ conda activate bob_env
 
 Create an environment with specific Python, dependencies:
 ```bash
-conda create -n bob_env \                                            
-    python=3.12 \
+conda create -n diffpy_utils_env python=3.13 \
     --file requirements/test.txt \
-    --file requirements/run.txt \
-    --file requirements/build.tx
+    --file requirements/conda.txt \
+    --file requirements/build.txt
 ```
 
 For Apple Silicon (M1/M2, arm64), set the environmet as if running on an Intel-based macOS (osx-64):
 
 ```bash
-CONDA_SUBDIR=osx-64 conda create -n bob_env \                                            
-    python=3.12 \
+CONDA_SUBDIR=osx-64 conda create -n diffpy_utils_env python=3.13 \
     --file requirements/test.txt \
-    --file requirements/run.txt \
-    --file requirements/build.tx
+    --file requirements/conda.txt \
+    --file requirements/build.txt
 ```
 
 Confirm your environment:
