@@ -225,7 +225,7 @@ code  ~/.zshrc  # or ~/.bashrc
 Copy the following to the file:
 
 ```bash
-# My custom aliases
+# My custom aliases, appliy via source ~/.zshrc
 alias ga='git add'
 alias gc='git checkout'
 alias gpum='git pull upstream main'
@@ -240,6 +240,14 @@ alias gl='git log'
 alias gs='git status'
 alias gd='git diff'
 alias gb='git branch'
+alias gr='git restore'
+
+# github CLI
+alias ghpr='gh pr create'
+alias ghprl='gh pr list'
+alias ghprc='gh pr checkout'
+alias ghil='gh issue list'
+alias ghb='gh browse'
 
 # install
 alias pi='pip install'
@@ -247,6 +255,9 @@ alias ci='conda install'
 
 # test
 alias pt='pytest'
+
+# format
+alias pc='pre-commit run --all-files'
 
 # build
 alias pb='python -m build'
