@@ -4,7 +4,7 @@ Nov 13, 2024 for Mac only
 
 1. We minimize physical strain, save time, produce high quality work.
 2. We must choose refine our tools
-3. We must** refine our habits** with those tools.
+3. We must **refine our habits** with those tools.
 
 ## 1. Configure command-line shortcuts
 
