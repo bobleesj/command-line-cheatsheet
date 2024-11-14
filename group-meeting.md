@@ -2,8 +2,8 @@
 
 Nov 13, 2024 for Mac only
 
-1. We minimize physical strain, save time, produce high quality work.
-2. We must choose refine our tools
+1. We want to produce high quality work, constrained by time and stamina.
+2. We must **choose the correct tools**.
 3. We must **refine our habits** with those tools.
 
 ## 1. Configure command-line shortcuts
@@ -83,9 +83,11 @@ Useful command for release:
 gh release list
 ```
 
+## Conclusion
 
-## 3. Utilize
+If you've found this helpful, then I can cover more topics on:
 
+- Lessons learned GitHub
 
 
 
