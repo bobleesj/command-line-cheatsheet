@@ -12,6 +12,7 @@ Set alias for longer commands in the Zsh and Bash shells:
 
 > A shell is a CLI that bridges between the OS and the human.
 
+> In the group, `bash` is preferred, especially for windows users using `git bash`. In this way, we can share scripts easily.
 
 ```
 code  ~/.zshrc  # or ~/.bashrc
