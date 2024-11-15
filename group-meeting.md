@@ -120,7 +120,10 @@ gh pr list
 gh pr diff 154
 
 # Checkout that PR
-gh pr chckout 1
+gh pr checkout 1
+
+# Create PR
+gh pr create
 
 # View via web
 gh pr view --web
