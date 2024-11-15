@@ -87,8 +87,14 @@ gh release list
 
 ## Conclusion
 
-Lessons learned in Billinge Group
+More future hands-on workshop available:
 
+1. keyboard shortcuts (code editor)
+2. Python best practices (PEP)
+3. GitHub communicaiton rules
+4. Writing 101 for programming (error message, docstrings, comments)
+
+Lessons learned in Billinge Group
 https://gitlab.thebillingegroup.com/resources/group-wiki/-/wikis/Lessons-learned-in-Billinge-Group
 
 
