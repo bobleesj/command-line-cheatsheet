@@ -85,10 +85,9 @@ gh release list
 
 ## Conclusion
 
-If you've found this helpful, then I can cover more topics on:
+Lessons learned in Billinge Group
 
-- Lessons learned GitHub
-
+https://gitlab.thebillingegroup.com/resources/group-wiki/-/wikis/Lessons-learned-in-Billinge-Group
 
 
 
