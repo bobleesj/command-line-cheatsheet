@@ -10,6 +10,8 @@ Nov 13, 2024 for Mac only
 
 Set alias for longer commands in the Zsh and Bash shells:
 
+> A shell is a CLI that briges between the OS and the human.
+
 ```
 code  ~/.zshrc  # or ~/.bashrc
 ```
