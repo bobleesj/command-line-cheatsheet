@@ -19,6 +19,12 @@ git push origin --delete cookierelease
 
 # Delete local branch
 git branch -D cookierelease
+
+# Delete all local tags
+git tag -d $(git tag -l)
+
+# Delete all remote tags
+# git push origin --delete $(git tag -l)
 ```
 
 ## GitHub CLI
