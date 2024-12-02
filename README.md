@@ -27,6 +27,15 @@ git tag -d $(git tag -l)
 # git push origin --delete $(git tag -l)
 ```
 
+## GitHub
+
+You want to force sync with your forked remote branch
+
+```
+git fetch origin
+git reset --hard origin/main
+```
+
 ## GitHub CLI
 
 ### Show readme
