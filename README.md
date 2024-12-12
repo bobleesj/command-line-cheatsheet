@@ -27,6 +27,57 @@ git tag -d $(git tag -l)
 # git push origin --delete $(git tag -l)
 ```
 
+Stash
+
+```
+# List all the stashes
+$ git stash list
+stash@{0}: WIP on admin_ui: 0c1a80a Removed annotation from JdbcAdminService, it is now explicity initialized in the applicationContext.
+stash@{1}: WIP on admin_ui: 14e12e6 Added foreign keys for UserRole
+stash@{2}: WIP on master: d188ecd Merge branch 'master' of semc-git:customercare
+stash@{3}: WIP on master: 3763795 More work on user_details.
+...
+
+# Apply the latest stash, and remove it from the stack
+$ git stash pop
+
+# Apply a named patch, but leave it on the stack
+$ git stash apply stash@{2} 
+
+# Drop a stash
+$ git stash drop stash@{3} 
+
+# Clear the entire stash stack (almost never needed)
+$ git stash clear
+
+# A better way to purge the stash
+$ git reflog expire --expire=30.days refs/stash
+
+the `/refs/stash` file.
+
+`git stash` does not commit but takes a snapshot of the local changes.
+
+`git reset` creates a new commit point. It can jump back to any prior commit and also undo previous local changes.
+
+`git stash save message` to add a custom message
+
+`git stash push` also stash untracked files
+
+`git stash pop` takes the files in the stash place and delete it from the histroy
+
+`git stash show` inspect a summary
+
+`git stash show diff` diff b/w a stashed change and the current state
+
+`git stash apply` same as `git stash pop` but does not delete the history
+
+`git stash list` displays history
+
+`git stash drop` removes the latest stash
+
+`git stash clear` removes all stashes
+```
+
 ## GitHub
 
 You want to force sync with your forked remote branch
