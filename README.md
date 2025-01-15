@@ -20,6 +20,9 @@ git push origin --delete cookierelease
 # Delete local branch
 git branch -D cookierelease
 
+# Delete all branh
+git branch | grep -v "main" | xargs git branch -D
+
 # Delete all local tags
 git tag -d $(git tag -l)
 
