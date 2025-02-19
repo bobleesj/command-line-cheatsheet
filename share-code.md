@@ -173,8 +173,6 @@ from team_project.utils import calculator
 calculator.multiply(2, 3)
 ```
 
-> Notice that the only difference is from `my_project` to `team_project`!
-
 Then, install your `tema-project` package by running
 
 ```bash
