@@ -28,7 +28,7 @@ Run `python calculator.py`.
 
 ## Level 2. Share functions across modules
 
-Imagine you have `hw1.py` that you want to use the `multiply` function. Here is the folder structure:
+Imagine you are working on a homework problem via `hw1.py`. Here you want to use the `multiply` function. Here is the folder structure:
 
 ```text
 my_project/
