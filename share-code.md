@@ -101,7 +101,7 @@ my_project/
 ├── utils/
 │   ├── __init__.py
 │   └── calculator.py
-└── __init
+└── __init__.py
 ```
 
 Then, you need to set the absolute path as the root path of your Python project.
