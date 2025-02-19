@@ -50,7 +50,7 @@ print("Math problem 2")
 calculator.multiply(2, 5, 4)
 ```
 
-`calculator.multiply` can be a bit long. You may rename it by running the `import ... as ...` syntax:
+`calculator.multiply` can be a bit long. You may rename it by using the `import ... as ...` syntax shown below:
 
 ```python
 import calculator as calc
