@@ -132,7 +132,7 @@ As you may see, the downside of this approach is that you have to manually run `
 
 ## Level 4. Share code as an installable package
 
-Here, the goal is to achieve what we did in Level 3, but as an installabe package.
+Here, the goal is to achieve what we did in Level 3, but as an installable package.
 
 Please following the new folder structure. Notice that `my_project` has been re-named to `team_project`.
 
