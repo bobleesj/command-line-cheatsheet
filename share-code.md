@@ -190,7 +190,7 @@ pip list
 Execute your code by running
 
 ```bash
-python python src/team_project/solutions/hw1.py  # Multiplication result of (2, 3) = 6
+python src/team_project/solutions/hw1.py  # Multiplication result of (2, 3) = 6
 ```
 
 Congratulations! You have learned how to share code between two separate directories by creating a complete package!
