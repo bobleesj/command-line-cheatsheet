@@ -11,6 +11,12 @@ This document contains commonly used commands for
 
 Feel free to fork and add more useful commands and flags as needed.
 
+## Tool
+
+Get the tree structure
+
+`brew install tree` and run `tree`
+
 ## GitHub
 
 ### Git revert - for shared repositories undo or go back to the previous commit pushed to public and shared remote
