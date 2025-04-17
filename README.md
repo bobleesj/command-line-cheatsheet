@@ -340,6 +340,15 @@ Activate the alias:
 source ~/.zshrc  # or source ~/.bashrc
 ```
 
+## Sphinx preview
+
+Use https://github.com/prkumar/sphinx-reload
+
+```bash
+pip install sphinx-reload
+sphinx-reload docs
+```
+
 ## Test PyPI
 
 ```bash
