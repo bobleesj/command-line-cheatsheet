@@ -13,6 +13,27 @@ Feel free to fork and add more useful commands and flags as needed.
 
 ## GitHub
 
+### Git revert - for shared repositories undo or go back to the previous commit pushed to public and shared remote
+
+Assume you have 2 commits, and the last commit is a mistake. The last commit is called "bad mistake". Use `git revert HEAD` to undo the last commit, but this generates a third commit called `Revert "bad mistake"`. You can provide a specific commit ID for `revert`. An example from StackOverflow: assume you have four commit IDs `1, 2, 3, 4`. If you run `git revert 2`, it returns the state at `3`. This is the safe way since the commit history is preserved
+
+### Git reset - undo changes that have not been shared
+
+“You should never use `git reset` when any snapshots after have been pushed to a public repository. After publishing a commit, you have to assume that other developers are reliant upon it.” - https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
+
+- Reset does not make commits.
+- It changes the pointer to a commit
+
+`git reset` resets Staging to the last commit. Use `--hard` to also reset files in your Working directory to the last commit.
+
+`HEAD~` is short for `HEAD~1`
+
+`soft` does not change index (staging area) nor the files - but only the head
+
+mixed/deafult changes the index but not the files
+
+hard reset - resets index and working directory
+
 ```
 # Delete remote branch
 git push origin --delete cookierelease
