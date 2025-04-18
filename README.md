@@ -404,7 +404,7 @@ alias testpypi='twine upload --repository testpypi dist/*'
 alias c='code .'
 
 # sphinx
-alias doc='cd doc && make html && open build/html/index.html && cd ..'
+alias doc-sphinx='cd doc && make html && open build/html/index.html && cd ..'
 ```
 
 Activate the alias:
