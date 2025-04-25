@@ -594,6 +594,10 @@ jobs:
             publish_dir: ./doc/build/html
 ```
 
+To see the rendered page, 
+
+https://htmlpreview.github.io/?https://github.com/bobleesj/scikit-package/gh-pages/index.html
+
 ## References
 
 - GitHub CLI https://cli.github.com/manual/
