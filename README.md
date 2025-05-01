@@ -11,6 +11,32 @@ This document contains commonly used commands for
 
 Feel free to fork and add more useful commands and flags as needed.
 
+## Vim
+
+- r - replace a single character.
+- i - insert before the cursor
+- I - insert at the beginning of the line
+- A - insert (append) at the end of the line
+- o - append (open) a new line below the current line
+- O - append (open) a new line above the current line
+- $d - From the current line to the end of the file
+- 1d - From the current line to the beginning of the file
+- dd - delete (cut) a line
+- yy - yank (copy) a line
+- H - move to top of screen
+- M - move to middle of screen
+- L - move to bottom of screen
+- u - undo
+- U - restore (undo) last changed line
+- . - repeat last command
+- 5gg or 5G - go to line 5
+- gg - go to the first line of the document
+- zz - center cursor on screen
+- zt - position cursor on top of the screen
+- zb - position cursor on bottom of the screen
+
+From: https://vim.rtorr.com/
+
 ## Tool
 
 Get the tree structure
