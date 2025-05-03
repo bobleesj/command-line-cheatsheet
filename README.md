@@ -13,6 +13,7 @@ Feel free to fork and add more useful commands and flags as needed.
 
 ## Vim
 
+- D - delete everything on the right
 - S - delete line and substitute text (same as cc)
 - r - replace a single character.
 - i - insert before the cursor
