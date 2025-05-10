@@ -91,7 +91,18 @@ git tag -d $(git tag -l)
 # git push origin --delete $(git tag -l)
 ```
 
-Stash
+Rest GitHub commit history (Know what you are done)
+
+```
+git checkout --orphan new-main HEAD~10
+git add -A
+git commit -m "Cleaned history: kept last 10 commits"
+git branch -D main
+git branch -m main
+git push -f origin main
+```
+
+Git stash
 
 ```
 # List all the stashes
