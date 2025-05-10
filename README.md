@@ -18,6 +18,7 @@ Cursor nav
 - M - move to middle of screen
 - L - move to bottom of screen
 - 0 / $ - move cursor to beginning / end
+- b / B - move word left, b but skip special chracters
 
 Edit
 - D - delete everything on the right
