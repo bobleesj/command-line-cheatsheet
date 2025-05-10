@@ -13,6 +13,13 @@ Feel free to fork and add more useful commands and flags as needed.
 
 ## Vim
 
+Cursor nav
+- H - move to top of screen
+- M - move to middle of screen
+- L - move to bottom of screen
+- 0 / $ - move cursor to beginning / end
+
+Edit
 - D - delete everything on the right
 - S - delete line and substitute text (same as cc)
 - r - replace a single character.
@@ -25,9 +32,7 @@ Feel free to fork and add more useful commands and flags as needed.
 - 1d - From the current line to the beginning of the file
 - dd - delete (cut) a line
 - yy - yank (copy) a line
-- H - move to top of screen
-- M - move to middle of screen
-- L - move to bottom of screen
+
 - u - undo
 - U - restore (undo) last changed line
 - . - repeat last command
