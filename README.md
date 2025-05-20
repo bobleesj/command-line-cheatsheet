@@ -20,6 +20,10 @@ Cursor nav
 - 0 / $ - move cursor to beginning / end
 - b / B - move word left, b but skip special chracters
 
+Delete
+- ctrl-W - delete word left
+
+
 Edit
 - D - delete everything on the right
 - S - delete line and substitute text (same as cc)
