@@ -11,6 +11,16 @@ This document contains commonly used commands for
 
 Feel free to fork and add more useful commands and flags as needed.
 
+## Jupyer
+
+- ESC + A/B/DD - Insert cell above/below/delete
+- ESC + C/X/V - Copy/cut/paste
+- ESC + O/shift+O - Hide/clear output
+- Ctrl + Shift + (-) - split cell
+- ESC + shift + M - merge selected cells
+- ESC + L - show line number
+- ESC + 0 + 0 - restart kernal
+
 ## Vim
 
 Cursor nav
