@@ -9,6 +9,36 @@ This document contains commonly used commands for
 - Test PyPI
 - Bash scripting
 
+
+## GitHub keyboard shortcuts
+
+- G + I - visit issues
+- G + P - visit PR
+- G + A - visit Actions
+- G + C - visit Code
+- G + N - visit notification
+
+GH notifications
+
+- E	Mark as done
+- Shift + U	- Mark as unread
+- Shift + I	- Mark as read
+- Shift + M	- Unsubscribe
+
+GH Writing
+- CMD + shift + P -toggle preview
+
+GH Issue
+- L - apply label
+- Option + Shift + c - create a sub-issue
+- C - create an issue from the list
+
+GH keyboard help
+- Shift + / 
+
+
+https://docs.github.com/en/get-started/accessibility/keyboard-shortcuts
+
 Feel free to fork and add more useful commands and flags as needed.
 
 ## Jupyer
